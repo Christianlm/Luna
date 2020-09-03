@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luna 0.1\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2020-08-19 10:32+0200\n"
+"PO-Revision-Date: 2020-08-19 11:53+0100\n"
+"Last-Translator: Chris <llajta2012@gmail.com>\n"
+"Language-Team: Translators <llajta2012@gmail.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\luna\__init__.py:54
+msgid "Retrieves moon fase."
+msgstr "Fase della Luna."
+
+#: addon\globalPlugins\luna\__init__.py:60
+msgid "visibility"
+msgstr "Visibile"
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\luna\__init__.py:64
+msgid "Announces informations about the moon."
+msgstr "Informazioni sulla Luna."
+
+#: addon\globalPlugins\luna\__init__.py:74
+msgid "Moon phase of "
+msgstr "Fase lunare del "
+
+#: addon\globalPlugins\luna\__init__.py:74
+msgid ". distance: "
+msgstr ". Distanza dalla Terra: "
+
+#: addon\globalPlugins\luna\__init__.py:74
+msgid ". Visibility: "
+msgstr ". visibilità: "
+
+#: addon\globalPlugins\luna\__init__.py:74
+msgid ". Moon age: "
+msgstr ". Età: "
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\luna\__init__.py:80
+msgid "Retrieves the last moon information."
+msgstr "rilegge le ultime informazioni sulla Luna"
+
+#. Translators: title of browseable message box.
+#: addon\globalPlugins\luna\__init__.py:85
+msgid "Moon Position"
+msgstr "Posizione della Luna"
+
+#. translators: message when  there are no recent info about the moon.
+#: addon\globalPlugins\luna\__init__.py:88
+msgid "There is no recent info for moon position."
+msgstr "Non ci sono informazioni sulla posizione della Luna..."
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "luna"
+msgstr "Luna"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid "Get info about the moon from a italian web site"
+msgstr "recupera informazioni sulla Luna da un sito web italiano"
