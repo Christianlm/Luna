@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Luna v. 0.3.20200818-dev add-on for NVDA SCREEN READER.
+# Luna v. 0.3.20210711-dev add-on for NVDA SCREEN READER.
 # Last update 18 august 2020.
 # Copyright (C) 2020 by Chris Leo <llajta2012ATgmail.com>
 # Released under GPL 2
