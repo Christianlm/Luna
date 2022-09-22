@@ -15,7 +15,10 @@ Sono disponibili le seguenti funzioni:
 <dt><strong>Informazioni sulla Luna;</strong></dt>
 <dd>legge maggiori informazioni sulla Luna, come distanza  e età.</dd>
 <dt><strong>Rilegge le ultime informazioni sulla Luna.</strong></dt>
-<dd>Viene visualizzato una finestra di messaggio   con le ultime informazioni recuperate.</dd></dl>
+<dd>Viene visualizzato una finestra di messaggio   con le ultime informazioni recuperate.</dd>
+<dt><strong>Informazioni sull'alba e tramonto.</strong></dt>
+<dd>Viene visualizzato un messaggio navigabile con le informazioni sull'alba e il tramonto recuperate per la tua città. La stessa feature è disponibile anche dal menu Nvda, Strumenti, Luna.</dd>
+</dl>
 
 ---
  

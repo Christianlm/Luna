@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: luna 0.1\n"
+"Project-Id-Version: luna 0.4.20220921\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2020-08-19 10:32+0200\n"
-"PO-Revision-Date: 2020-08-19 11:53+0100\n"
+"POT-Creation-Date: 2022-09-21 19:18+0200\n"
+"PO-Revision-Date: 2022-09-22 11:24+0100\n"
 "Last-Translator: Chris <llajta2012@gmail.com>\n"
 "Language-Team: Translators <llajta2012@gmail.com>\n"
 "Language: it\n"
@@ -14,50 +14,124 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. Translators: name of a submenu.
+#: addon\globalPlugins\luna\__init__.py:91
+msgid "&Luna"
+msgstr "&Luna"
+
+#. Translators: the name of a menu item.
+#: addon\globalPlugins\luna\__init__.py:93
+msgid "&Alba e tramonto del Sole"
+msgstr "&Alba e tramonto del Sole"
+
+#. Translators: the name of a menu item.
+#: addon\globalPlugins\luna\__init__.py:96
+msgid "&Check updates"
+msgstr "&Controlla aggiornamenti"
+
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\luna\__init__.py:54
+#: addon\globalPlugins\luna\__init__.py:108
 msgid "Retrieves moon fase."
 msgstr "Fase della Luna."
 
-#: addon\globalPlugins\luna\__init__.py:60
+#: addon\globalPlugins\luna\__init__.py:114
 msgid "visibility"
 msgstr "Visibile"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\luna\__init__.py:64
+#: addon\globalPlugins\luna\__init__.py:118
 msgid "Announces informations about the moon."
 msgstr "Informazioni sulla Luna."
 
-#: addon\globalPlugins\luna\__init__.py:74
+#: addon\globalPlugins\luna\__init__.py:128
 msgid "Moon phase of "
 msgstr "Fase lunare del "
 
-#: addon\globalPlugins\luna\__init__.py:74
+#: addon\globalPlugins\luna\__init__.py:128
 msgid ". distance: "
 msgstr ". Distanza dalla Terra: "
 
-#: addon\globalPlugins\luna\__init__.py:74
+#: addon\globalPlugins\luna\__init__.py:128
 msgid ". Visibility: "
 msgstr ". visibilità: "
 
-#: addon\globalPlugins\luna\__init__.py:74
+#: addon\globalPlugins\luna\__init__.py:128
 msgid ". Moon age: "
 msgstr ". Età: "
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\luna\__init__.py:80
+#: addon\globalPlugins\luna\__init__.py:134
 msgid "Retrieves the last moon information."
 msgstr "rilegge le ultime informazioni sulla Luna"
 
 #. Translators: title of browseable message box.
-#: addon\globalPlugins\luna\__init__.py:85
+#: addon\globalPlugins\luna\__init__.py:139
 msgid "Moon Position"
 msgstr "Posizione della Luna"
 
 #. translators: message when  there are no recent info about the moon.
-#: addon\globalPlugins\luna\__init__.py:88
+#: addon\globalPlugins\luna\__init__.py:142
 msgid "There is no recent info for moon position."
 msgstr "Non ci sono informazioni sulla posizione della Luna..."
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\luna\__init__.py:146
+msgid "Retrieves msunrise and sunset."
+msgstr "Informazioni sull'alba e il tramonto del Sole."
+
+#: addon\globalPlugins\luna\__init__.py:150
+msgid "No city set ..."
+msgstr "Nessun comune impostato correttamente..."
+
+#. Translators: title of browseable message box.
+#: addon\globalPlugins\luna\__init__.py:159
+msgid "Alba e Tramonto."
+msgstr "Alba e Tramonto."
+
+#: addon\globalPlugins\luna\__init__.py:178
+msgid "The current version {ver} is the latest."
+msgstr "L'attuale versione {ver} è l'ultima disponibile."
+
+#: addon\globalPlugins\luna\__init__.py:178
+msgid "Luna addon  is up to date!"
+msgstr "Il componente Luna è aggiornato!"
+
+#. Translators: The title of the check  updates dialog.
+#: addon\globalPlugins\luna\__init__.py:186
+msgid "New Version Notification"
+msgstr "Nuova versione disponibile"
+
+#. Translators: The label of a button.
+#: addon\globalPlugins\luna\__init__.py:193
+msgid "Proceed to &download page"
+msgstr "Vai alla pagina del &Download"
+
+#. Translators: the label for  settings category.
+#: addon\globalPlugins\luna\__init__.py:229
+msgid "Luna"
+msgstr "Luna"
+
+#. Translators: the label for edit text.
+#: addon\globalPlugins\luna\__init__.py:234
+msgid "Enter your city name:"
+msgstr "Inserisci il tuo comune:"
+
+#. Translators: a button to check  your city.
+#: addon\globalPlugins\luna\__init__.py:241
+msgid "Chec&k..."
+msgstr "Veri&fica"
+
+#: addon\globalPlugins\luna\__init__.py:249
+msgid "Ok! "
+msgstr "Ok! "
+
+#: addon\globalPlugins\luna\__init__.py:249
+msgid " is a town in "
+msgstr " risulta un comune in "
+
+#: addon\globalPlugins\luna\__init__.py:252
+msgid "City name not found, check spelling or if city name exists."
+msgstr "Nome comune non trovato. Controlla l'ortografia, o se il nome esiste."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -69,4 +143,4 @@ msgstr "Luna"
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:20
 msgid "Get info about the moon from a italian web site"
-msgstr "recupera informazioni sulla Luna da un sito web italiano"
+msgstr "recupera informazioni sulla Luna e sul Sole da siti web italiani"
